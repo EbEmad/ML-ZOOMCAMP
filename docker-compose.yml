@@ -4,6 +4,6 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ${PWD}/01-intro:/app
+      - ./01-intro:/app
     ports:
       - "8000:8000"
