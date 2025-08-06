@@ -4,6 +4,7 @@ services:
       context: .
       dockerfile: Dockerfile
     volumes:
-      - ./01-intro:/app
+      - ./01-intro:/app/01-intro
+      - ./02-regression:/app/02-regression
     ports:
       - "8000:8000"
