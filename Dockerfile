@@ -6,6 +6,7 @@ WORKDIR /app
 
 
 # Copy the requirements file into the container
+
 COPY requirements.txt .
 
 # Install Python dependencies
